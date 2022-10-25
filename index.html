@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20221019174516">
+	<link rel="stylesheet" href="css/style.min.css?_v=20221026004711">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -34,69 +34,248 @@
 			</div>
 		</header>
 		<main data-fp class="page">
-			<section data-fp-section class="page__main main-section">
-				<div class="main-section__container">
-					<div class="main-section__content">
-						<div class="main-section__title title">
-							<div class="title__lable">MY NAME IS</div>
-							<h1 class="title__value title__value_big">Alex <span>Smith.</span></h1>
-						</div>
-						<div class="main-section__text text">
-							<p>Creative front-end developer with more than +5 years of experience in enterprise companies and startups. Proficient in JavaScript, Angular, and React. Passionate about UI/UX</p>
-						</div>
-						<div class="main-section__social social">
-							<a href="#" class="social__link _icon-instagram"></a>
-							<a href="#" class="social__link _icon-git"></a>
-							<a href="#" class="social__link _icon-twitter"></a>
-							<a href="#" class="social__link _icon-linked"></a>
-						</div>
-					</div>
-					<div class="main-section__decor decor-main-section">
-						<div class="decor-main-section__box">
-							<div class="decor-main-section__image">
-								<picture><source srcset="img/main/photo.webp" type="image/webp"><img class="decor-main-section__picture" src="img/main/photo.png" alt="Photo"></picture>
+			<!-- 
+				<section data-fp-section class="page__main main-section">
+					<div class="main-section__container">
+						<div class="main-section__content">
+							<div class="main-section__title title">
+								<div class="title__lable">MY NAME IS</div>
+								<h1 class="title__value title__value_big">Alex <span>Smith.</span></h1>
+							</div>
+							<div class="main-section__text text">
+								<p>Creative front-end developer with more than +5 years of experience in enterprise companies and startups. Proficient in JavaScript, Angular, and React. Passionate about UI/UX</p>
+							</div>
+							<div class="main-section__social social">
+								<a href="#" class="social__link _icon-instagram"></a>
+								<a href="#" class="social__link _icon-git"></a>
+								<a href="#" class="social__link _icon-twitter"></a>
+								<a href="#" class="social__link _icon-linked"></a>
 							</div>
 						</div>
+						<div class="main-section__decor decor-main-section">
+							<div class="decor-main-section__box">
+								<div class="decor-main-section__image">
+									<picture><source srcset="img/main/photo.webp" type="image/webp"><img class="decor-main-section__picture" src="img/main/photo.png" alt="Photo"></picture>
+								</div>
+							</div>
+						</div>
 					</div>
-				</div>
-			</section>
-			<section data-fp-section class="page__services services">
-				<div class="services__container">
-					<div class="services__title title">
-						<div class="title__lable">SERVICES</div>
-						<h2 class="title__value">Specialized in</h2>
+				</section>
+				<section data-fp-section class="page__services services">
+					<div class="services__container">
+						<div class="services__title title">
+							<div class="title__lable">SERVICES</div>
+							<h2 class="title__value">Specialized in</h2>
+						</div>
+						<div class="services__items">
+							<article class="services__item item-service">
+								<div class="item-service__icon">
+									<img src="img/services/01.svg" alt="Icon">
+								</div>
+								<h4 class="item-service__title">UI/UX Design</h4>
+								<div class="item-service__text">
+									Turn what you have in mind of a digital product into reality. For any platform you consider.
+								</div>
+							</article>
+							<article class="services__item item-service">
+								<div class="item-service__icon">
+									<img src="img/services/02.svg" alt="Icon">
+								</div>
+								<h4 class="item-service__title">Application Development</h4>
+								<div class="item-service__text">
+									Standard designing, building, and implementing your applications with documentation.
+								</div>
+							</article>
+							<article class="services__item item-service">
+								<div class="item-service__icon">
+									<img src="img/services/03.svg" alt="Icon">
+								</div>
+								<h4 class="item-service__title">Web Development</h4>
+								<div class="item-service__text">
+									Create and maintain your websites and also take care of its performance and traffic capacity.
+								</div>
+							</article>
+						</div>
 					</div>
-					<div class="services__items">
-						<article class="services__item item-service">
-							<div class="item-service__icon">
-								<img src="img/services/01.svg" alt="Icon">
+				</section>
+				<section data-fp-section class="page__portfolios portfolios">
+					<div class="portfolios__container">
+						<div class="portfolios__header">
+							<div class="portfolios__title title">
+								<div class="title__lable">MY WORKS</div>
+								<h2 class="title__value">Featured Portfolios
+								</h2>
 							</div>
-							<h4 class="item-service__title">UI/UX Design</h4>
-							<div class="item-service__text">
-								Turn what you have in mind of a digital product into reality. For any platform you consider.
+							<div class="portfolios__controls">
+								<button type="button" class="portfolios__arrow portfolios__arrow_left _icon-arrow"></button>
+								<button type="button" class="portfolios__arrow portfolios__arrow_right _icon-arrow"></button>
 							</div>
-						</article>
-						<article class="services__item item-service">
-							<div class="item-service__icon">
-								<img src="img/services/02.svg" alt="Icon">
+						</div>
+						<div class="portfolios__slider swiper">
+							<div class="portfolios__wrapper swiper-wrapper">
+								<div class="portfolios__slide swiper-slide">
+									<article class="item-portfolio">
+										<a href="" class="item-portfolio__image-ibg">
+											<picture><source srcset="img/portfolios/01.webp" type="image/webp"><img src="img/portfolios/01.jpg" alt="Agency Website"></picture>
+										</a>
+										<div class="item-portfolio__body">
+											<h4 class="item-portfolio__title">
+												<a href="" class="item-portfolio__link-title">Agency Website.</a>
+											</h4>
+											<div class="item-portfolio__footer">
+												<a href="" class="item-portfolio__category category-link">WordPress</a>
+												<a href="" class="item-portfolio__link _icon-link"></a>
+											</div>
+										</div>
+									</article>
+								</div>
+								<div class="portfolios__slide swiper-slide">
+									<article class="item-portfolio">
+										<a href="" class="item-portfolio__image-ibg">
+											<picture><source srcset="img/portfolios/02.webp" type="image/webp"><img src="img/portfolios/02.jpg" alt="Agency Website"></picture>
+										</a>
+										<div class="item-portfolio__body">
+											<h4 class="item-portfolio__title">
+												<a href="" class="item-portfolio__link-title">Dashboard Website.</a>
+											</h4>
+											<div class="item-portfolio__footer">
+												<a href="" class="item-portfolio__category category-link">React</a>
+												<a href="" class="item-portfolio__link _icon-link"></a>
+											</div>
+										</div>
+									</article>
+								</div>
+								<div class="portfolios__slide swiper-slide">
+									<article class="item-portfolio">
+										<a href="" class="item-portfolio__image-ibg">
+											<picture><source srcset="img/portfolios/03.webp" type="image/webp"><img src="img/portfolios/03.jpg" alt="Agency Website"></picture>
+										</a>
+										<div class="item-portfolio__body">
+											<h4 class="item-portfolio__title">
+												<a href="" class="item-portfolio__link-title">Support Center Website.</a>
+											</h4>
+											<div class="item-portfolio__footer">
+												<a href="" class="item-portfolio__category category-link">PHP</a>
+												<a href="" class="item-portfolio__link _icon-link"></a>
+											</div>
+										</div>
+									</article>
+								</div>
+								<div class="portfolios__slide swiper-slide">
+									<article class="item-portfolio">
+										<a href="" class="item-portfolio__image-ibg">
+											<picture><source srcset="img/portfolios/01.webp" type="image/webp"><img src="img/portfolios/01.jpg" alt="Agency Website"></picture>
+										</a>
+										<div class="item-portfolio__body">
+											<h4 class="item-portfolio__title">
+												<a href="" class="item-portfolio__link-title">Agency Website.</a>
+											</h4>
+											<div class="item-portfolio__footer">
+												<a href="" class="item-portfolio__category category-link">WordPress</a>
+												<a href="" class="item-portfolio__link _icon-link"></a>
+											</div>
+										</div>
+									</article>
+								</div>
 							</div>
-							<h4 class="item-service__title">Application Development</h4>
-							<div class="item-service__text">
-								Standard designing, building, and implementing your applications with documentation.
-							</div>
-						</article>
-						<article class="services__item item-service">
-							<div class="item-service__icon">
-								<img src="img/services/03.svg" alt="Icon">
-							</div>
-							<h4 class="item-service__title">Web Development</h4>
-							<div class="item-service__text">
-								Create and maintain your websites and also take care of its performance and traffic capacity.
-							</div>
-						</article>
+						</div>
 					</div>
-				</div>
-			</section>
+				</section>				
+				<section data-fp-section class="page__career career">
+					<div data-tabs="768" class="career__container">
+						<div class="career__body">
+							<div class="career__title title">
+								<div class="title__lable">career path</div>
+								<h2 class="title__value">Work Experices</h2>
+							</div>
+							<nav data-tabs-titles class="career__navigation navigation-career">
+								<button type="button" class="navigation-career__title _tab-active">Apple</button>
+								<button type="button" class="navigation-career__title">Microsoft</button>
+								<button type="button" class="navigation-career__title">Facebook</button>
+								<button type="button" class="navigation-career__title">Slack</button>
+							</nav>
+							<div data-tabs-body class="career__content content-career">
+								<div class="content-career__body">
+									<div class="content-career__header">
+										<div class="content-career__title">Front-end Developer <a href="" class="content-career__link-title"> Apple .Inc</a></div>
+										<div class="content-career__location">California, United States</div>
+										<div class="content-career__time">Nov 2020 - Present · Full-time</div>
+										<div class="content-career__categories">
+											<a href="#" class="category-link">Swift</a>
+											<a href="#" class="category-link">Go</a>
+										</div>
+									</div>
+									<div class="content-career__main">
+										<ul class="content-career__list list-content-career">
+											<li class="list-content-career__item">Improving overall website performance for mobile users.</li>
+											<li class="list-content-career__item">Collaborate with back-end developers and web designers to improve usability</li>
+											<li class="list-content-career__item">Add voice search feature for mobile app.</li>
+											<li class="list-content-career__item">Developing an admin panel to manage contents, users, products and ...</li>
+										</ul>
+									</div>
+								</div>
+								<div class="content-career__body">
+									<div class="content-career__header">
+										<div class="content-career__title">Front-end Developer <a href="" class="content-career__link-title"> Microsoft .Inc</a></div>
+										<div class="content-career__location">California, United States</div>
+										<div class="content-career__time">Nov 2020 - Present · Full-time</div>
+										<div class="content-career__categories">
+											<a href="#" class="category-link">Go</a>
+											<a href="#" class="category-link">Swift</a>
+										</div>
+									</div>
+									<div class="content-career__main">
+										<ul class="content-career__list list-content-career">
+											<li class="list-content-career__item">Collaborate with back-end developers and web designers to improve usability</li>
+											<li class="list-content-career__item">Add voice search feature for mobile app.</li>
+											<li class="list-content-career__item">Improving overall website performance for mobile users.</li>
+											<li class="list-content-career__item">Developing an admin panel to manage contents, users, products and ...</li>
+										</ul>
+									</div>
+								</div>
+								<div class="content-career__body">
+									<div class="content-career__header">
+										<div class="content-career__title">Front-end Developer <a href="" class="content-career__link-title"> Facebook .Inc</a></div>
+										<div class="content-career__location">California, United States</div>
+										<div class="content-career__time">Nov 2020 - Present · Full-time</div>
+										<div class="content-career__categories">
+											<a href="#" class="category-link">Swift</a>
+											<a href="#" class="category-link">Go</a>
+										</div>
+									</div>
+									<div class="content-career__main">
+										<ul class="content-career__list list-content-career">
+											<li class="list-content-career__item">Improving overall website performance for mobile users.</li>
+											<li class="list-content-career__item">Add voice search feature for mobile app.</li>
+											<li class="list-content-career__item">Developing an admin panel to manage contents, users, products and ...</li>
+											<li class="list-content-career__item">Collaborate with back-end developers and web designers to improve usability</li>
+										</ul>
+									</div>
+								</div>
+								<div class="content-career__body">
+									<div class="content-career__header">
+										<div class="content-career__title">Front-end Developer <a href="" class="content-career__link-title"> Slack .Inc</a></div>
+										<div class="content-career__location">California, United States</div>
+										<div class="content-career__time">Nov 2020 - Present · Full-time</div>
+										<div class="content-career__categories">
+											<a href="#" class="category-link">Go</a>
+											<a href="#" class="category-link">Swift</a>
+										</div>
+									</div>
+									<div class="content-career__main">
+										<ul class="content-career__list list-content-career">
+											<li class="list-content-career__item">Improving overall website performance for mobile users.</li>
+											<li class="list-content-career__item">Collaborate with back-end developers and web designers to improve usability</li>
+											<li class="list-content-career__item">Developing an admin panel to manage contents, users, products and ...</li>
+											<li class="list-content-career__item">Add voice search feature for mobile app.</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				-->
 		</main>
 		<footer class="footer">
 			<div class="footer__container">
@@ -113,7 +292,7 @@
 		</div>
 	</div>
 </div> -->
-	<script src="js/app.min.js?_v=20221019174516"></script>
+	<script src="js/app.min.js?_v=20221026004711"></script>
 </body>
 
 </html>
