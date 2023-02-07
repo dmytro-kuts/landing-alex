@@ -4124,8 +4124,8 @@
                     const gotoSpeed = gotoLink.dataset.gotoSpeed ? gotoLink.dataset.gotoSpeed : 500;
                     const offsetTop = gotoLink.dataset.gotoTop ? parseInt(gotoLink.dataset.gotoTop) : 0;
                     if (flsModules.fullpage) {
-                        const fullpageSectionId = +document.querySelector(`${gotoLinkSelector}[data-fp-section]`).dataset.fpId;
-                        flsModules.fullpage.switchingSection(fullpageSectionId);
+                        const fullpageSectionId = +document.querySelector(`${gotoLinkSelector}`).closest("[data-fp-section]").dataset.fpId;
+                        fullpageSectionId ? flsModules.fullpage.switchingSection(fullpageSectionId) : null;
                     } else gotoBlock(gotoLinkSelector, noHeader, gotoSpeed, offsetTop);
                     e.preventDefault();
                 }
